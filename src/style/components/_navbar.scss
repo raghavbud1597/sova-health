@@ -1,0 +1,21 @@
+.navbar {
+    background-color: $primary-color;
+
+    .nav-link-item {
+        .nav-link {
+            color: $white;
+
+            &:hover {
+                color: $text-hover-color;
+            } 
+            
+            &.active {
+                color: $text-hover-color;
+            }
+        }
+    }
+
+    .btn-danger {
+        background-color: $red;
+    }
+}

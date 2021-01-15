@@ -1,4 +1,11 @@
+// Vendor Scripts
 @import "~bootstrap/scss/bootstrap";
+
+// Custom Variables
+@import "./variable";
+
+// Components
+@import "./components/main";
 
 .App {
   text-align: center;
