@@ -1,0 +1,20 @@
+.home {
+    .banner {
+        &-heading {
+            color: $white;
+            font-weight: 800;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 87%;
+                padding-top: 2rem;
+                border-bottom: 3px solid $white; 
+            }
+        }
+
+        &-image {
+            height: 50vh;
+        }
+    }
+}
