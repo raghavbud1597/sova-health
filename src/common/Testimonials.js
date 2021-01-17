@@ -6,7 +6,7 @@ import Kritika from './../images/Kritika.webp'
 
 export default function Testimonials() {
     return (
-        <Carousel className="bg-secondary">
+        <Carousel className="bg-secondary" data-aos="fade-up">
             <Carousel.Item>
                 <Row className="justify-content-center align-items-center my-5">
                     <Col sm={3}>

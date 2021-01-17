@@ -7,7 +7,7 @@ export default function GoalCard({
         image = ''
     }) {
     return (
-        <Card style={{ width: '100%' }} className="text-primary text-center shadow-sm rounded-lg">
+        <Card style={{ width: '100%' }} className="text-primary text-center shadow-sm rounded-lg" data-aos="fade-up">
             <Card.Body>
                 <Card.Title className="font-weight-bold">
                     {title}

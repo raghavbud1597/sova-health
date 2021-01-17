@@ -17,18 +17,18 @@ export default function Home() {
                 <Container>
                     <Row className="align-items-center">
                         <Col md={6} sm={12}>
-                            <h1 className="banner-heading">
+                            <h1 className="banner-heading" data-aos="fade-up">
                                 Discover a Healthier You
                             </h1>
-                            <h4 className="text-white mt-5">
+                            <h4 className="text-white mt-5" data-aos="fade-up">
                                 Get a personalized nutrition program based on your lifestyle, habits and blood analysis.
                             </h4>
-                            <Button variant="light" className="font-weight-bold mt-5">
+                            <Button variant="light" className="font-weight-bold mt-5" data-aos="fade-up">
                                 <h5 className="p-2 m-0">Learn More</h5>
                             </Button>
                         </Col>
                         <Col md={6} sm={12}>
-                            <img src={FoodNutrition} alt="nutrition" className="banner-image"/>
+                            <img src={FoodNutrition} alt="nutrition" className="banner-image" data-aos="fade-up"/>
                         </Col>
                     </Row>
                 </Container>
@@ -37,24 +37,24 @@ export default function Home() {
                 <Container>
                     <Row className="justify-content-center">
                         <Col>
-                            <h1 className="text-primary text-center mb-5">
+                            <h1 className="text-primary text-center mb-5" data-aos="fade-up">
                                 REDEFINE YOUR RELATIONSHIP WITH FOOD
                             </h1>
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
                         <Col sm={8} md={3}>
-                            <div className="bg-white rounded">
+                            <div className="bg-white rounded" data-aos="fade-up">
                                 <h4 className="text-primary text-center py-2">No Diet Charts</h4>
                             </div>
                         </Col>
                         <Col sm={8} md={3}>
-                            <div className="bg-white rounded">
+                            <div className="bg-white rounded" data-aos="fade-up">
                                 <h4 className="text-primary text-center py-2">No Restrictive Diets</h4>
                             </div>
                         </Col>
                         <Col sm={8} md={3}>
-                            <div className="bg-white rounded">
+                            <div className="bg-white rounded" data-aos="fade-up">
                                 <h4 className="text-primary text-center py-2">
                                     No Staying Hungry
                                 </h4>
@@ -111,7 +111,7 @@ export default function Home() {
             <section className="py-5">
                 <Container>
                     <Row className="justify-content-center">
-                        <Col sm={12} md={8}>
+                        <Col sm={12} md={8} data-aos="fade-up">
                             <iframe 
                                 title="Welcome to Sova health"
                                 width="100%" 
@@ -126,19 +126,19 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5">
+                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
                         HOW IT WORKS?
                     </h1>
                     <Row className="justify-content-center">
                         <Col sm={12} md={8}>
-                            <img src={Hiw} alt="How it works" className="w-100"/>
+                            <img src={Hiw} alt="How it works" className="w-100" data-aos="fade-up"/>
                         </Col>
                     </Row>
                 </Container>
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5">
+                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
                         WHAT OUR CUSTOMERS SAY
                     </h1>
                     <Row className="justify-content-center">
@@ -150,24 +150,24 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5">
+                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
                         OUR PARTNERS
                     </h1>
                     <Row className="justify-content-center">
                         <Col sm={12} md={10}>
-                            <img src={Partners} alt="Partners List" className="w-100"/>
+                            <img src={Partners} alt="Partners List" className="w-100" data-aos="fade-up"/>
                         </Col>
                     </Row>
                 </Container>
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5">
+                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
                         AS SEEN IN
                     </h1>
                     <Row className="justify-content-center">
                         <Col sm={12} md={10}>
-                            <img src={News} alt="Partners List" className="w-100"/>
+                            <img src={News} alt="Partners List" className="w-100" data-aos="fade-up"/>
                         </Col>
                     </Row>
                 </Container>

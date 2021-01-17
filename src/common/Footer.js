@@ -20,26 +20,26 @@ export default function Footer() {
             <footer className="footer pt-5">
                 <Row className="justify-content-between py-4">
                     <Col sm={3}>
-                        <p className="font-weight-bold mb-5">
+                        <p className="font-weight-bold mb-5" data-aos="fade-up">
                             Just good content. No spam. <br/> Sign up for our newsletter
                         </p>
                         <Form>
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Control type="email" placeholder="Your Email" className="rounded-0"/>
+                                <Form.Control type="email" placeholder="Your Email" className="rounded-0" data-aos="fade-up"/>
                             </Form.Group>
-                            <Button variant="primary" type="submit" className="rounded-pill p-2">
+                            <Button variant="primary" type="submit" className="rounded-pill p-2" data-aos="fade-up">
                                 Submit
                             </Button>
                         </Form>
                     </Col>
                     <Col sm={3}>
                         <Row className="mb-5">
-                            <img src={Call} alt="Call" height="18px" width="18px" className="mr-4"/>
-                            <a href="tel:+919811574691">+91 9811 574 691</a>
+                            <img src={Call} alt="Call" height="18px" width="18px" className="mr-4" data-aos="fade-up"/>
+                            <a href="tel:+919811574691" data-aos="fade-up">+91 9811 574 691</a>
                         </Row>
                         <Row>
-                            <img src={Email} alt="Email" height="18px" width="20px" className="mr-4"/>
-                            <a href="mailto:support@sova.health">support@sova.health</a>
+                            <img src={Email} alt="Email" height="18px" width="20px" className="mr-4" data-aos="fade-up"/>
+                            <a href="mailto:support@sova.health" data-aos="fade-up">support@sova.health</a>
                         </Row>
                     </Col>
                 </Row>
@@ -51,7 +51,7 @@ export default function Footer() {
                 </Row>
                 <Row>
                     <Col>
-                        <p className="text-uppercase text-center">WEDNESDAY HEALTH INDIA PVT. LTD. 2020. ALL RIGHTS RESERVED</p>
+                        <p className="text-uppercase text-center" data-aos="fade-up">WEDNESDAY HEALTH INDIA PVT. LTD. 2020. ALL RIGHTS RESERVED</p>
                     </Col>
                 </Row>
             </footer>
