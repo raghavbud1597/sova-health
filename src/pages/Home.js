@@ -1,11 +1,15 @@
 import React from 'react';
 import FoodNutrition from './../images/food-nutrition.webp';
+import News from './../images/news.webp';
+import Hiw from './../images/hiw-summary.webp'
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import GoalCard from '../common/GoalCard';
-
+import Partners from '../images/partners.webp';
+import Testimonials from '../common/Testimonials';
+ 
 export default function Home() {
     return (
         <div className="home my-5">
@@ -100,6 +104,70 @@ export default function Home() {
                                 title="Blood Biometer Analysis"
                                 desc="Get a scientific explanation for how specific biomakers affect your body and what foods can be used to improve them."
                             />
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="py-5">
+                <Container>
+                    <Row className="justify-content-center">
+                        <Col sm={12} md={8}>
+                            <iframe 
+                                title="Welcome to Sova health"
+                                width="100%" 
+                                height="400px"
+                                src="https://www.youtube.com/embed/-3O3TVzbEJ8" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen />
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="py-5">
+                <Container>
+                    <h1 className="text-primary text-center mb-5">
+                        HOW IT WORKS?
+                    </h1>
+                    <Row className="justify-content-center">
+                        <Col sm={12} md={8}>
+                            <img src={Hiw} alt="How it works" className="w-100"/>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="py-5">
+                <Container>
+                    <h1 className="text-primary text-center mb-5">
+                        WHAT OUR CUSTOMERS SAY
+                    </h1>
+                    <Row className="justify-content-center">
+                        <Col sm={12}>
+                            <Testimonials />
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="py-5">
+                <Container>
+                    <h1 className="text-primary text-center mb-5">
+                        OUR PARTNERS
+                    </h1>
+                    <Row className="justify-content-center">
+                        <Col sm={12} md={10}>
+                            <img src={Partners} alt="Partners List" className="w-100"/>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="py-5">
+                <Container>
+                    <h1 className="text-primary text-center mb-5">
+                        AS SEEN IN
+                    </h1>
+                    <Row className="justify-content-center">
+                        <Col sm={12} md={10}>
+                            <img src={News} alt="Partners List" className="w-100"/>
                         </Col>
                     </Row>
                 </Container>
