@@ -39,7 +39,7 @@ export default function Home() {
                 <Container>
                     <Row className="justify-content-center">
                         <Col>
-                            <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                            <h1 className="text-primary text-center mb-5 l-60" data-aos="fade-up">
                                 REDEFINE YOUR RELATIONSHIP WITH FOOD
                             </h1>
                         </Col>
@@ -70,7 +70,7 @@ export default function Home() {
             </section>
             <section className="my-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5">WE HELP YOU ACHIEVE YOUR HEALTH GOALS</h1>
+                    <h1 className="text-primary text-center mb-5 l-60">WE HELP YOU ACHIEVE YOUR HEALTH GOALS</h1>
                     <Row className="align-items-center justify-content-md-between justify-content-sm-center">
                         <Col sm={8} md={3}>
                             <GoalCard 
@@ -137,7 +137,7 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-25" data-aos="fade-up">
                         HOW IT WORKS?
                     </h1>
                     <Row className="justify-content-center">
@@ -145,11 +145,16 @@ export default function Home() {
                             <img src={Hiw} alt="How it works" className="w-100" data-aos="fade-up"/>
                         </Col>
                     </Row>
+                    <Row className="justify-content-center mt-5">
+                        <Col sm={12} md={8}>
+                            <a href="/howitworks" className="text-uppercase l-60 text-primary text-center"><h4>See How the complete process Works</h4></a>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-35" data-aos="fade-up">
                         WHAT OUR CUSTOMERS SAY
                     </h1>
                     <Row className="justify-content-center">
@@ -161,7 +166,7 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-15" data-aos="fade-up">
                         OUR PARTNERS
                     </h1>
                     <Row className="justify-content-center">
@@ -173,7 +178,7 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-15" data-aos="fade-up">
                         AS SEEN IN
                     </h1>
                     <Row className="justify-content-center">

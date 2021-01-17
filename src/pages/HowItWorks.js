@@ -21,7 +21,7 @@ export default function HowItWorks() {
                 <Container>
                     <Row className="align-items-center justify-content-center">
                         <Col md={6} sm={12}>
-                            <h1 className="text-primary font-weight-bold" data-aos="fade-up">
+                            <h1 className="text-primary font-weight-bold l-100" data-aos="fade-up">
                                 Truly Personalized Nutrition starts with a Blood-Test
                             </h1>
                             <h4 className="text-primary mt-5" data-aos="fade-up">
@@ -39,8 +39,21 @@ export default function HowItWorks() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-25" data-aos="fade-up">
                         HOW DOES IT WORK?
+                    </h1>
+                    <Row className="justify-content-center" >
+                        <Col>
+                            <img src={Hdiw} alt="HOW DOES IT WORK" className="w-100 d-none d-sm-none d-md-block" data-aos="fade-up"/>
+                            <img src={Hiw_v} alt="HOW DOES IT WORK" className="w-100 d-block d-sm-block d-md-none" data-aos="fade-up"/>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+            <section className="py-5 bg-secondary">
+                <Container>
+                    <h1 className="text-primary text-center mb-5 l-10" data-aos="fade-up">
+                        SERVICES
                     </h1>
                     <Row className="justify-content-center" >
                         <Col>
@@ -52,7 +65,7 @@ export default function HowItWorks() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-35" data-aos="fade-up">
                         THE SOVA HEALTH PROMISE
                     </h1>
                     <Row className="justify-content-center">
@@ -70,7 +83,7 @@ export default function HowItWorks() {
             </section>
             <section className="py-5 bg-primary">
                 <Container>
-                    <h1 className="text-secondary text-center mb-5" data-aos="fade-up">
+                    <h1 className="text-secondary text-center mb-5 l-75" data-aos="fade-up">
                         WE LET THE RESULTS SPEAK FOR THEMSELVES HERE’S WHAT OUR PAST USERS HAVE TO SAY:
                     </h1>
                     <Row className="justify-content-center">

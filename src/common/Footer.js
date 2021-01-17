@@ -51,7 +51,7 @@ export default function Footer() {
                 </Row>
                 <Row>
                     <Col>
-                        <p className="text-uppercase text-center" data-aos="fade-up">WEDNESDAY HEALTH INDIA PVT. LTD. 2020. ALL RIGHTS RESERVED</p>
+                        <p className="text-uppercase text-center">WEDNESDAY HEALTH INDIA PVT. LTD. 2020. ALL RIGHTS RESERVED</p>
                     </Col>
                 </Row>
             </footer>
