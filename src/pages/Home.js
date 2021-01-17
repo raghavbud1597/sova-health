@@ -39,7 +39,7 @@ export default function Home() {
                 <Container>
                     <Row className="justify-content-center">
                         <Col>
-                            <h1 className="text-primary text-center mb-5 l-60" data-aos="fade-up">
+                            <h1 className="text-primary text-center mb-5 l-60 font-weight-bold" data-aos="fade-up">
                                 REDEFINE YOUR RELATIONSHIP WITH FOOD
                             </h1>
                         </Col>
@@ -70,7 +70,7 @@ export default function Home() {
             </section>
             <section className="my-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5 l-60">WE HELP YOU ACHIEVE YOUR HEALTH GOALS</h1>
+                    <h1 className="text-primary text-center mb-5 l-60 font-weight-bold">WE HELP YOU ACHIEVE YOUR HEALTH GOALS</h1>
                     <Row className="align-items-center justify-content-md-between justify-content-sm-center">
                         <Col sm={8} md={3}>
                             <GoalCard 
@@ -137,11 +137,11 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5 l-25" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-25 font-weight-bold" data-aos="fade-up">
                         HOW IT WORKS?
                     </h1>
                     <Row className="justify-content-center">
-                        <Col sm={12} md={8}>
+                        <Col sm={12} md={10}>
                             <img src={Hiw} alt="How it works" className="w-100" data-aos="fade-up"/>
                         </Col>
                     </Row>
@@ -154,7 +154,7 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5 l-35" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-35 font-weight-bold" data-aos="fade-up">
                         WHAT OUR CUSTOMERS SAY
                     </h1>
                     <Row className="justify-content-center">
@@ -166,7 +166,7 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5 l-15" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-15 font-weight-bold" data-aos="fade-up">
                         OUR PARTNERS
                     </h1>
                     <Row className="justify-content-center">
@@ -178,11 +178,11 @@ export default function Home() {
             </section>
             <section className="py-5">
                 <Container>
-                    <h1 className="text-primary text-center mb-5 l-15" data-aos="fade-up">
+                    <h1 className="text-primary text-center mb-5 l-15 font-weight-bold" data-aos="fade-up">
                         AS SEEN IN
                     </h1>
                     <Row className="justify-content-center">
-                        <Col sm={12} md={10}>
+                        <Col sm={12}>
                             <img src={News} alt="Partners List" className="w-100" data-aos="fade-up"/>
                         </Col>
                     </Row>
