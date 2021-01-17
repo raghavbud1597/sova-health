@@ -1,5 +1,5 @@
 .navbar {
-    background-color: $primary-color;
+    background-color: $primary;
 
     .nav-link-item {
         .nav-link {
@@ -13,9 +13,5 @@
                 color: $text-hover-color;
             }
         }
-    }
-
-    .btn-danger {
-        background-color: $red;
     }
 }
